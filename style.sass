@@ -13,6 +13,9 @@ body
     justify-content: center
     align-items: center
     height: 100vh
+    
+    @media(max-width: 780px)
+        height: auto
 
 .share-container
     background: #EDE9E2
@@ -21,6 +24,10 @@ body
     box-shadow: 6px 6px #C7AEAB 
     max-width: 840px
     width: 100%
+
+    @media(max-width: 780px)
+        width: 90%
+        margin: 150px auto
 
     h2
         color: #1E1411
@@ -33,6 +40,9 @@ body
         justify-content: space-between
         margin: 40px 40px
         flex-wrap: wrap
+
+        @media(max-width: 768px)
+            gap: 40px
 
         a,
         a:visited
