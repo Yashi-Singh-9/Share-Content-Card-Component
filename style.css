@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  background-color: #DACDC9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.share-container {
+  background: #EDE9E2;
+  border-radius: 40px;
+  padding: 40px;
+  box-shadow: 6px 6px #C7AEAB;
+  max-width: 840px;
+  width: 100%;
+}
+.share-container h2 {
+  color: #1E1411;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 40px;
+}
+.share-container .social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 40px;
+  flex-wrap: wrap;
+}
+.share-container .social-icons a,
+.share-container .social-icons a:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #D9D9D9;
+  color: #1E1411;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  font-size: 28px;
+  transition: all 0.3s ease-in;
+}
+.share-container .social-icons a:hover,
+.share-container .social-icons a:visited:hover {
+  background-color: #1E1411;
+  color: #D9D9D9;
+}
+.share-container .social-icons a.selected,
+.share-container .social-icons a:visited.selected {
+  border: 2px solid #1E1411;
+}
+.share-container .copy-link {
+  margin: 40px 40px;
+}
+.share-container .copy-link label {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1E1411;
+}
+.share-container .copy-link .input-container {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #D9D9D9;
+}
+.share-container .copy-link .input-container #share-link {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  color: #1E1411;
+  width: 100%;
+  cursor: text;
+}
+.share-container .copy-link .input-container #copy-button {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #1E1411;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.share-container .copy-link .input-container #copy-button:hover {
+  background-color: #1E1411;
+  color: #D9D9D9;
+}
+.share-container .copy-message {
+  font-size: 18px;
+  color: #4caf50;
+  margin-top: 10px;
+  display: none;
+  animation: fadeInOut 2s ease;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
