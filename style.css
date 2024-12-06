@@ -14,6 +14,11 @@ body {
   align-items: center;
   height: 100vh;
 }
+@media (max-width: 780px) {
+  body {
+    height: auto;
+  }
+}
 
 .share-container {
   background: #EDE9E2;
@@ -22,6 +27,12 @@ body {
   box-shadow: 6px 6px #C7AEAB;
   max-width: 840px;
   width: 100%;
+}
+@media (max-width: 780px) {
+  .share-container {
+    width: 90%;
+    margin: 150px auto;
+  }
 }
 .share-container h2 {
   color: #1E1411;
@@ -34,6 +45,11 @@ body {
   justify-content: space-between;
   margin: 40px 40px;
   flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .share-container .social-icons {
+    gap: 40px;
+  }
 }
 .share-container .social-icons a,
 .share-container .social-icons a:visited {
