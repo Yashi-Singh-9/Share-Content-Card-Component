@@ -44,6 +44,8 @@ This project is a solution for the **Share Content Card Component Challenge** on
 
 Do watch the Live [Preview](https://yashi-singh-9.github.io/Share-Content-Card-Component/).
 
+---
+
 ## Features
 
 - **Social Sharing**: Share content on platforms like Facebook, Twitter, Instagram, LinkedIn, Pinterest, and Telegram.
@@ -78,11 +80,11 @@ Alternatively, if you don’t want to install Sass, you can use the precompiled 
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/share-content-card-component.git
+   git clone https://github.com/Yashi-Singh-9/Share-Content-Card-Component.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd share-content-card-component
+   cd Share-Content-Card-Component
    ```
 3. **(Optional)** If you have Sass installed and want to recompile the styles, run:
    ```bash
